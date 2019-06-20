@@ -23,6 +23,9 @@ case 3: result = a*b;
 case 4: result = a/b;
 	printf("\nThe quotient of %lf and %lf is: %lf",a,b,result);
 	break;
+case 5: result = a%b;
+	printf("\nThe modulas of %lf and %lf is: %lf",a,b,result);
+	break;
 default:"invalid choice";
 }
 getch();
